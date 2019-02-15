@@ -7,3 +7,4 @@ This is university level book/notes sharing system, optimized for RGPV, This is 
 - Uses autofill to prevent redundant typing.
 - Has messaging system built-in.
 - Written in PHP 7
+- Trims image metadata using GD or imagick(preferred).
