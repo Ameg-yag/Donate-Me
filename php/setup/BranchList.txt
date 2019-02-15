@@ -1,0 +1,6 @@
+104:Civil Engineering:CE
+106:Computer Science & Engineering:CS
+107:Electronics & Communication Engineering:EC
+110:Electrical & Electronics Engineering:EX
+115:Information Technology:IT
+116:Mechanical Engineering:ME

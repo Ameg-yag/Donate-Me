@@ -1,0 +1,68 @@
+body
+{
+    background: linear-gradient(rgba(36, 56, 99, 0.2), rgba(25, 84, 185, 0.1)) no-repeat fixed;
+    background-size: cover;
+}
+nav
+{
+    padding-left: 8px;
+}
+
+form .material-icons
+{
+    padding-top: 8px;
+}
+
+fieldset
+{
+    padding-bottom: 16px;
+}
+
+legend
+{
+    font-family: Roboto;
+}
+
+#full_name
+{
+    text-transform: capitalize;
+}
+
+#email
+{
+    text-transform: lowercase;
+}
+
+#rollno
+{
+    text-transform: uppercase;
+}
+
+.input-field label {
+    color: #111;
+}
+
+.submit
+{
+   float: right;
+}
+
+form button .material-icons
+{
+    padding: 0;
+}
+
+.file-field
+{
+    margin: 0px 16px;
+}
+
+::placeholder
+{
+    color: #666;
+}
+
+small>a
+{
+    display: inline-block;
+}

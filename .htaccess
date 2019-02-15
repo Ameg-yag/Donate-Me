@@ -1,0 +1,53 @@
+# Disable the server signature 
+ServerSignature Off
+
+# Prevent access to .htaccess
+#<Files .htaccess>
+#Order allow,deny
+#Deny from all
+#</Files>
+
+# Limit bandwidth consumption
+#<ifmodule mod_php5.c>
+#php_value zlib.output_compression 16386
+#</ifmodule>
+
+# Disable unauthorized directory browsing 
+Options All -Indexes
+
+# Block access to specific file
+#<files myfile.doc>
+#Order allow,deny
+#Deny from all
+#</files>
+
+# Disguise php files as html files 
+# AddType application/x-httpd-html .php
+
+# Protect a single file
+#<Files myfile.php>
+#AuthType Basic
+#AuthName "Mypassword"
+#AuthUserFile /home/path/.htpasswd
+#Require valid-user
+#</Files>
+
+# Display custom error pages 
+ErrorDocument 400 /html/errors/400.html
+ErrorDocument 403 /html/errors/403.html
+ErrorDocument 404 /html/errors/404.html
+ErrorDocument 500 /html/errors/500.html
+
+# Hide .php extension
+
+<IfModule php5_module>
+    php_flag session.cookie_httponly on
+</IfModule>
+
+<IfModule php7_module>
+    php_flag session.cookie_httponly on
+</IfModule>
+
+<IfModule php_module>
+    php_flag session.cookie_httponly on
+</IfModule>

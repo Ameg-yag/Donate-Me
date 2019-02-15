@@ -1,0 +1,63 @@
+.cover
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-size: cover;
+    background: linear-gradient(rgba(36, 56, 99, 0.7), rgba(25, 84, 185, 0.1)), url("../img/cover.jpg") fixed no-repeat;
+    color: white;
+
+    font-size: 4.5vmin;
+    font-variant: small-caps;
+    padding: 1vmin;
+    margin: 0;
+    text-align: center;
+}
+hr
+{
+    width: 92vw;
+    background: white;
+    height: 1vmin;
+}
+
+.center
+{
+    padding-top: 5vmin;
+}
+
+.dp
+{
+    border: white 3px solid;
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.dp:hover
+{
+    transform: rotate3d(200, 200, 200, 25deg);
+}
+
+.dp:active
+{
+    transform: scale(5,5) rotate3d(0, 0, 0, 0deg);
+    height: auto;
+}
+
+#cover-college, #cover-rollno, #cover-college, #cover-full-name, #cover-branch
+{
+    border-bottom: 2px solid white;
+}
+
+.container
+{
+    height: 200vh;
+}
+
+.container i
+{
+    font-size: 10vmax;
+}

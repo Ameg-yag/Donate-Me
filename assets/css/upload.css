@@ -1,0 +1,14 @@
+.background
+{
+    background: linear-gradient(rgba(36, 56, 99, 0.7), rgba(25, 84, 185, 0.1)), url("../img/cover.jpg") fixed no-repeat;
+}
+
+.hello
+{
+    height: 200vh;
+}
+
+.menu-btn
+{
+    position: fixed;
+}
